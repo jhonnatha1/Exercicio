@@ -49,12 +49,12 @@ if(!$mail->send()) {
     //echo 'Message could not be sent.';
     //echo 'Mailer Error: ' . $mail->ErrorInfo;
     //header("Location: ../feedbackformerror.html");
-    header("Location: https://jhonnatha1.github.io/Exercicio/feedbackformerror.html");
+    header("Location: https://joaogoncalves.github.io/sendmail/feedbackformerror.html");
     
 }
 else {
    // echo 'Message has been sent.';
     //header("Location: ../feedbackform.html");
-    header("Location: https://jhonnatha1.github.io/Exercicio/feedbackform.html");
+    header("Location: https://joaogoncalves.github.io/sendmail/feedbackform.html");
     
 }
