@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-size: 1.5rem;
+
+}
+
+header {
+    text-align: center;
+    background-image: url('images/img_header.png');
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Ajuste a altura conforme necessário */
+}
+header h1 {
+    padding-top: 3%;
+    text-shadow: 
+    -2px -2px 0 black,  
+    2px -2px 0 black,
+   -2px  2px 0 black,
+    2px  2px 0 black; 
+}
+.hero {
+    background-color: rgb(255, 252, 98);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.hero img {
+    margin: 20px;
+    margin-top: 30px;
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+.hero a img:hover {
+    transform: scale(1.1);
+}
+h1 {
+    font-family: "Montserrat", serif;
+    font-size: 2.5em;
+    color: rgb(192, 12, 192);
+
+}
+h2 {
+    font-size: 2.4em;
+    font-family: "Montserrat", serif;
+}
+p { 
+    font-size:1.0em;
+
+}
+
+
+.sections {
+    padding-top: 1%;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+
+.centralizar-img {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+.info {
+    
+    max-width: 50%;
+    text-align: left;
+
+}
+.imagem {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.nav {
+    padding-top: 5%;
+    text-align: center;
+}
