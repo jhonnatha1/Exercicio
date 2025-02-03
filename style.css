@@ -16,7 +16,7 @@ header {
 header h1 {
     padding-top: 3%;
     text-shadow: 
-    -2px -2px 0 black,  
+   -2px -2px 0 black,  
     2px -2px 0 black,
    -2px  2px 0 black,
     2px  2px 0 black; 
@@ -28,6 +28,19 @@ header h1 {
     justify-content: center;
     gap: 20px;
 }
+a:link {
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(29, 40, 190);
+}
+a:hover {
+    background-color: rgb(237, 255, 71);
+}
+a:active {
+   color: green;
+}
+
 .hero img {
     margin: 20px;
     margin-top: 30px;
@@ -55,7 +68,7 @@ p {
 
 .sections {
     padding-top: 1%;
-    width: 80%;
+    width: 90%;
     margin: 0 auto; 
 }
 
@@ -85,4 +98,11 @@ p {
 .nav {
     padding-top: 5%;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
 }
